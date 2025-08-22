@@ -95,7 +95,7 @@ ret
 
 ## Output  
 
-![Uploading image.png…]()
+<img width="1919" height="1133" alt="Screenshot 2025-08-22 092157" src="https://github.com/user-attachments/assets/bc293b28-48ba-48e4-a17d-e537b0895b56" />
 
 
 
@@ -133,7 +133,8 @@ ret
  
 ## Output 
 
-![Uploading image.png…]()
+<img width="1616" height="625" alt="Screenshot 2025-08-22 092812" src="https://github.com/user-attachments/assets/33f64f7e-4762-43e0-bd37-31c78b115f87" />
+
 
 
 
