@@ -45,25 +45,8 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 9.	Click on emulate to start emulation 
-
-
-
-
-
-
-
-
 <img width="152" height="441" alt="image" src="https://github.com/user-attachments/assets/c9dafbdd-90ad-4cd2-92ab-704b441e8ee2" />
-
-
-
-
-
-
-
 10.	If no errors are found click on run the program and check the status of various flags in the flags tab as shown below 
-
-
 
 
 
