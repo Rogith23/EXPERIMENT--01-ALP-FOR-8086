@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name :Rogith J
+Roll no:212224040280 
+Date of experiment :22-08-2025
 
 
 
@@ -27,10 +27,12 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 7.	After running the program, another menu screen will be displayed, where you have the option to “View” symbol table,
+
 8.	 
 
+<img width="633" height="636" alt="image" src="https://github.com/user-attachments/assets/53e28ebe-f24a-4fdb-939e-1aa390111798" />
 
-![image](https://user-images.githubusercontent.com/36288975/189273263-d65baae9-4b8f-4723-afb3-c0ffa4052b04.png)
+
 
 
 
@@ -51,8 +53,7 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 
-![image](https://user-images.githubusercontent.com/36288975/189273273-9bb36ec1-e2e8-4892-8d35-37707332bfdc.png)
-
+<img width="152" height="441" alt="image" src="https://github.com/user-attachments/assets/c9dafbdd-90ad-4cd2-92ab-704b441e8ee2" />
 
 
 
@@ -67,7 +68,7 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 
-![image](https://user-images.githubusercontent.com/36288975/189273277-113a2a33-4a40-4ff8-95a5-ecd3a1f504fe.png)
+<img width="630" height="459" alt="image" src="https://github.com/user-attachments/assets/889c7422-9f93-4e4e-8895-b70e2ee31c21" />
 
 
 
@@ -77,25 +78,79 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Programs for arithmetic  operations
 
-## Addition  of 8 bit ALP 
+
+org 100h
+
+mov ax,4535h
+mov bx,733fh 
+mov cl,02h
+mov dh,10h
+
+add ax,bx
+mov [1000h],ax 
+
+sub bx,ax
+mov [1002h],bx
+  
+mul cl
+mov [1004h],ax 
+
+div dh
+mov [1006h],ax    
+
+
+ret
 
 
 
 ## Output  
+
+![Uploading image.png…]()
+
+
+
+
+
+
+
+
  
-## Subtraction   of 8 bit numbers  ALP 
+## Programs for logical operations:
+
+org 100h
+
+mov ax,2345h
+mov bx,1111h
+
+and ax,bx
+mov [1000h],ax
  
-## Output  
-## Multiplication alp 
- ## Output  
+mov ax,2345h
+or ax,bx
+mov [1002h],ax 
+
+mov ax,2345h
+not ax
+mov [1004h],ax   
+
+mov ax,2345h
+xor ax,bx
+mov [1006h],ax
 
 
-## Division alp 
 
-## Output  
+ret
+ 
+## Output 
+
+![Uploading image.png…]()
+
+
 
 
 ## Result :
+
+The execution ALP on fundamental arithmetic and logical operations is successfully completed
  
 
 
